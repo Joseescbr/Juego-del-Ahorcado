@@ -1,0 +1,40 @@
+.agregarPalabra__advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 13%;
+    top: 473px;
+}
+
+.imagenAlerta{
+    position: absolute;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+label {
+    position: static;
+    width: auto;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    padding-left: 25px;
+    font-weight: 600;
+
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: #495057;
+
+    display: inline-block;
+    }

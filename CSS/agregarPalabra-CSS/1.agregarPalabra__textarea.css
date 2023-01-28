@@ -1,0 +1,32 @@
+.agregarPalabra__textarea{
+    text-transform:lowercase;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 15%;
+    top: 150px;
+    
+    /*estilos de texto*/
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    justify-content: baseline;
+
+    /*si es redimencionable el cuadro*/
+    resize: none;
+    /*color del texto al escribir*/
+    color: #0A3871;
+    /*quitando bordes del cuadro*/
+    background: transparent;
+    border: none;
+    outline: rgb(233, 229, 229);
+
+    ;
+}
+
+.agregarPalabra__textarea::placeholder{
+    text-transform: none;
+    
+}

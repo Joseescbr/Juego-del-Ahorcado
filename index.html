@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="CSS/1.style.css">
+    <link rel="stylesheet" href="CSS/2.Logotipo.css">
+    <link rel="stylesheet" href="CSS/3.botonInicio.css">
+    <link rel="stylesheet" href="CSS/4.boton__iniciar.css">
+    <link rel="stylesheet" href="CSS/5.boton__agregar.css">
+    <link rel="stylesheet" href="CSS/agregarPalabra-CSS/1.agregarPalabra__textarea.css">
+    <link rel="stylesheet" href="CSS/agregarPalabra-CSS/2.agregarPalabra__advertencia.css">
+    <link rel="stylesheet" href="CSS/agregarPalabra-CSS/3.botonesAgregar.css">
+    <link rel="stylesheet" href="CSS/agregarPalabra-CSS/4.botonAgregar__guardar.css">
+    <link rel="stylesheet" href="CSS/agregarPalabra-CSS/5.botonAgregar__cancelar.css">
+    <link rel="stylesheet" href="CSS/canvas-CSS/1.canvas.css">
+    <link rel="stylesheet" href="CSS/canvas-CSS/2.botonesCanvas.css">
+    <link rel="stylesheet" href="CSS/canvas-CSS/3.boton__nuevoJuego.css">
+    <link rel="stylesheet" href="CSS/canvas-CSS/4.boton__salir.css">
+</head>
+
+<body>
+    
+        <img src="imagenes/logo.png" alt="Logotipo" class="logotipo">
+
+        <div class="botonInicio" id="botonInicio">
+            <input class="boton__iniciar" type="button" value="Iniciar Juego" id="boton__iniciar">
+            <input class="boton__agregar" type="button" value="Agregar palabra" id="boton__agregar">
+        </div>
+
+        <div class="agregarPalabra" id="agregarPalabra">
+            <textarea name="agregarPalabra__textarea" class="agregarPalabra__textarea" id="agregarPalabra__textarea" 
+                placeholder="Escriba una palabra" cols="10" rows="10" autofocus="" maxlength="8"></textarea>
+            <div class="agregarPalabra__advertencia">
+                <img src="imagenes/!.png" class="imagenAlerta" alt="signo de admiracion">
+                <label for="">Máx. 8 Letras.</label>
+            </div>
+            <div class="botonesAgregar">
+                <input class="botonAgregar__guardar" type="button" value="Guardar" id="botonAgregar__guardar">
+                <input class="botonAgregar__cancelar" type="button" value="Cancelar" id="botonAgregar__cancelar">
+            </div>
+        </div>
+
+        <div id="div-aparece-ahorcado" class="canvas">
+            <canvas class="horca" id="horca" width="1200" height="860px" ></canvas>
+            
+            <div class="botonesCanvas" id="botonesCanva">
+                <input class="boton__nuevoJuego" type="submit" value="Nuevo Juego" id="boton__nuevoJuego">
+                <input class="boton__salir" type="submit" value="Salir" id="boton__salir">
+              </div>
+        </div>
+
+
+
+    <script src="JavaScript/Ahorcado.js"></script>
+    <script src="JavaScript/canvas.js"></script>
+    <script src="JavaScript/verificaciones.js"></script>
+</body>
+
+</html>

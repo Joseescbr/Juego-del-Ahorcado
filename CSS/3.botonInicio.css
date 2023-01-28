@@ -1,0 +1,14 @@
+.botonInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 35%;
+    top: 250px;
+    
+
+}

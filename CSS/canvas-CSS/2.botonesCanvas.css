@@ -1,0 +1,12 @@
+.botonesCanvas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: relative;
+    width: 680px;
+    height: 100px;
+    left: 12%;
+    top: 20px;
+}
