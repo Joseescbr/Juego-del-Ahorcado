@@ -8,7 +8,7 @@ _Además, se ha incluido una sección para que el usuario pueda agregar palabras
 
 ## Comenzando 🚀
 
-_Para ver como funciona el proyecto visita: [Juego_del_Ahorcado](https://joseescbr.github.io/1.Encriptador/)_
+_Para ver como funciona el proyecto visita: [Juego_del_Ahorcado](https://joseescbr.github.io/Juego-del-Ahorcado/)_
 
 ## Construido con 🛠️
 
